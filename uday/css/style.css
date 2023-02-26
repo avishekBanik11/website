@@ -45,8 +45,13 @@ section {
   }
   
   .c-img {
-    height: 200%;
-    object-fit: cover;
+     height: 200%; 
+     object-fit: cover; 
+    filter: brightness(0.6);
+    
+  }
+  .cimg1 {
+    height: 200%; 
     filter: brightness(0.6);
     object-fit: contain;
   }

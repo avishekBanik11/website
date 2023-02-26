@@ -41,12 +41,14 @@ section {
 } 
 .c-item {
     height: 480px;
+    object-fit: contain;
   }
   
   .c-img {
     height: 200%;
     object-fit: cover;
     filter: brightness(0.6);
+    object-fit: contain;
   }
 
 .bg-cover {
